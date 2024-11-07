@@ -1,0 +1,5 @@
+.brand-image {
+    width: auto !important; /* Permite que la imagen use su ancho original */
+    height: auto !important; /* Permite que la imagen mantenga su proporción natural */
+    max-width: 100%; /* Asegura que no exceda el contenedor padre */
+}

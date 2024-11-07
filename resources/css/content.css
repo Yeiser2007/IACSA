@@ -1,0 +1,125 @@
+.content-table {
+    width: 100% !important;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 1rem 2rem 1rem 2rem;
+    min-height: 90vh;
+}
+.card-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    /* border: solid 1px  rgb(12, 6, 81); */
+    box-shadow: 0 0 5px  rgba(0, 0, 0,0.2);
+    padding: 1rem 1rem;
+    margin: 0;
+
+}
+.card-table{
+    min-height: 90vh !important;
+}
+
+label{
+    font-weight: bold;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 6, 81);
+    color: white;
+    width: 100% !important;
+    height: 3rem;
+    padding: 0;
+}
+.card-title h6{
+    width: 100% !important;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.card-incidencias{
+    padding: 0rem  !important;
+}
+.form-select,.form-control{
+    font-size: 10px;
+}
+
+.btn-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.button-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    width: 100%;
+}
+.button-area button{
+    width: 100%;
+    background-color: rgb(6, 81, 31);
+    border: none;
+}
+.buttons-export{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+}
+.buttons-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+tr{
+    text-align: center;
+}
+th{
+    font-size: 10px;
+    text-align: center;
+}
+td{
+    font-size: 10px;
+    text-align: center;
+}
+td button{
+    font-size: 20px;
+}
+.buttons-actions button{
+    padding: .2rem .5rem;
+    width: 30px;
+}
+
+.table-container{
+    padding: 0 !important;
+    min-height: 60vh !important;
+    box-shadow: 0 0 5px  rgba(0, 0, 0,0.2);
+    overflow-y: auto;
+}
+.content-reg{
+    font-size: 10px;
+}
+.table {
+    border-collapse: collapse;
+    border: solid 1px rgba(0, 0, 0,0.2);
+}
+.total-registros{
+    text-align: end;
+    font-size: 10px;
+}
+thead  {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa !important; /* Fondo para la cabecera */
+    z-index: 1;
+}
+#registroForm{
+    display: flex;
+    flex-direction: column;
+    height: 100% ;
+}
